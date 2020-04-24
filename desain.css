@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+}
+ 
+h2{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan{
+	text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.soal{
+    color: white;
+}
+ 
+.card{
+	width: 350px;
+    background: rgb(37, 37, 37);
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 200px;
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+.ya{
+    background: #1fe71f;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    transition: 0.25s;
+    width: 153px;
+	font-size: 11pt;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+.tidak{
+    background: #e01b1b;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    transition: 0.25s;
+    width: 153px;
+	font-size: 11pt;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+.ya:hover{
+    background-color: rgb(252, 215, 54);
+}
+
+.tidak:hover{
+    background-color: rgb(84, 155, 247);
+}
